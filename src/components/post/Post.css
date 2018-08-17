@@ -1,0 +1,155 @@
+.post-container {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.post-date-wrapper {
+  display: inline-block;
+  width: 60px;
+  vertical-align: top;
+  padding: 0px 5px;
+}
+
+.post-date {
+  display: inline-block;
+  width: 60px;
+  border: 1px solid transparent;
+  border-radius: 5px/5px;
+}
+
+.post-date.red {
+  background-color: rgb(78, 140, 23);
+}
+
+.post-date.green {
+  background-color: rgb(140, 23, 11);
+}
+
+.post-date p {
+  margin: 1px 2px;
+  padding: 5px;
+  color: white;
+}
+
+.post-date p span {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+.post-date p span:nth-child(1) {
+  font-size: 25px;
+}
+
+.post-date p span:nth-child(2) {
+  font-size: 15px;
+}
+
+.post-content-wrapper {
+  display: inline-block;
+  width: calc(100% - 102px);
+  padding: 5px 15px;
+  border: 1px solid transparent;
+  border-radius: 5px/5px;
+}
+
+.post-content-wrapper.red {
+  background-color: rgb(214, 254, 169);
+}
+
+.post-content-wrapper.green {
+  background-color: rgb(253, 179, 167);
+}
+
+.post-content-wrapper div h1 {
+  margin: 0px 20px 0px 0px;
+  font-weight: 500px;
+}
+
+.post-content-wrapper div p {
+  margin: 1px 0px 1px 0px;
+}
+
+.button-wrapper-container {
+  width: 25px;
+  margin-left: -27px;
+  margin-top: 2px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.button-wrapper-container button {
+  display: block;
+  width: 25px;
+  height: 25px;
+  border: 0.8px solid darkgrey;
+  border-radius: 5px/5px;
+}
+
+.button-wrapper-container button:nth-child(2) {
+  margin-top: 5px;
+}
+
+.fa.fa-times.size {
+  font-size: 23px;
+  margin-left: -4px;
+  margin-top: -2px;
+}
+
+.fa.fa-commenting.size {
+  font-size: 19px;
+  margin-left: -5px;
+}
+
+.newComment-absolute-container {
+  position: fixed;
+  left: 40%;
+  right: 60%;
+  bottom: 75%;
+  top: 25%;
+}
+
+.comment-text-box-container {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.comment-text-box-container.paragraph {
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  margin: 0px;
+  border-radius: 5px/5px;
+  max-width: calc(100% - 132px);
+}
+
+.comment-text-box-container.paragraph.red {
+  background-color: rgb(214, 254, 169);
+}
+
+.comment-text-box-container.paragraph.green {
+  background-color: rgb(253, 179, 167);
+}
+
+.comment-exit-button-container {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.comment-exit-button {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -6px;
+  left: 3px;
+  border: 1px thin red;
+  border-radius: 5px/5px;
+  background-color: transparent;
+}
+
+.comment-exit-button p {
+  margin: -3px 0px -0px 0px;
+  padding: -2px;
+  font-size: 10px;
+}
